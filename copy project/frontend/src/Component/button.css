@@ -1,0 +1,34 @@
+.btnStyle {
+    padding: 10px;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.dview {
+
+    background-color: red;
+    color: white;
+    margin-left: 1vw;
+}
+.eview {
+
+    background-color: green;
+    color: white;
+    margin-left: 1vw;
+}
+.save {
+    background-color: rgb(25, 202, 247);
+}
+
+.butn {
+    text-align: center;
+}
+.addBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vmax 0;
+}
+.err{
+    color: red;
+}

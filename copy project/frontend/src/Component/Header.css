@@ -1,0 +1,36 @@
+.header {
+    color: #000;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem 2rem;
+    background: rgba(236, 17, 17, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+}
+.logo h1{
+    font-size: 25px;
+    color: white;
+    font-weight: 900;
+    text-transform: uppercase
+
+}
+.logo h1::first-letter{
+    font-size: 35px;
+    color: red;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+.menu ul li a{
+    
+    text-decoration: none;
+    font-weight: 900;
+    padding: 30px;
+    
+}

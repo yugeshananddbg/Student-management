@@ -1,0 +1,79 @@
+.student{
+    margin: 2vmax;
+   
+}
+.student h1{
+    border-bottom: 1px solid black;
+}
+
+.studentTable {
+    margin: 1vw 5vw;
+    padding: 1px;
+    border: 1px solid rgba(0, 0, 0, 0.534);
+    border-radius: 5px;
+}
+
+.symbol {
+    list-style-type: disc;
+    color: rgb(81, 27, 131);
+    background-color: rgba(81, 27, 131, 0.219);
+    padding: 4px;
+    border-radius: 5px;
+    justify-content: center;
+    margin-left: 10vw;
+}
+
+.btnStyle {
+    padding: 5px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.subComponent {
+    display: flex;
+    justify-content: space-between;
+    user-select: none;
+}
+
+
+
+input {
+    border: none;
+    padding: 4px;
+    font-size: 15px;
+    width: 20vw;
+
+    background-color: rgba(81, 27, 131, 0) !important;
+}
+
+input:focus {
+    outline: none;
+}
+
+.footer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(81, 27, 131, 0.219);
+}
+
+.theader {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(81, 27, 131);
+    letter-spacing: 3px;
+
+    background-color: rgba(81, 27, 131, 0.219);
+}
+
+button {
+    padding: 10px 25px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+}
+
